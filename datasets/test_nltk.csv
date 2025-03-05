@@ -1,0 +1,5 @@
+ID,Sentence,Numbers,Mixed
+1,"Hello, world! This is a test.",123 456,Tokenize-this!
+2,NLTK is great for text tokenization.,789 1011,"Comma, period."
+3,Let's check: does it work properly?,"1213, 1415","New-line
+check"
