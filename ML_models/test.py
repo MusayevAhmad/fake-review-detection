@@ -1,9 +1,8 @@
 import csv
 import nltk
 
-# Ensure the necessary tokenizer is downloaded
 nltk.download('punkt')
-nltk.download('punkt_tab')  # Try downloading the missing resource
+nltk.download('punkt_tab')
 
 
 from nltk.tokenize import word_tokenize
