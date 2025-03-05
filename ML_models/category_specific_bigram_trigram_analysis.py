@@ -41,18 +41,26 @@ unique_categories = df["category"].unique()
 # For each category, compute and print top bigrams & trigrams
 for cat in unique_categories:
     cat_subset = df[df["category"] == cat]
-    token_lists = cat_subset["tokens"].tolist()
-
-    # Get top 10 bigrams & trigrams
-    cat_bigrams = get_common_ngrams(token_lists, n=2, top_n=10)
-    cat_trigrams = get_common_ngrams(token_lists, n=3, top_n=10)
-
-    # Print results for this category
+    
+    # Within this category, check for unique labels (AI vs. human)
+    unique_labels = cat_subset["label"].unique()
+    
     print(f"\n=== Category: {cat} ===")
-    print("Top 10 Bigrams (Stopwords Removed):")
-    for bigram, count in cat_bigrams:
-        print(f"  {bigram}: {count}")
+    
+    for lbl in unique_labels:
+        label_subset = cat_subset[cat_subset["label"] == lbl]
+        token_lists = label_subset["tokens"].tolist()
 
-    print("\nTop 10 Trigrams (Stopwords Removed):")
-    for trigram, count in cat_trigrams:
-        print(f"  {trigram}: {count}")
+        # Get top 10 bigrams & trigrams
+        cat_bigrams = get_common_ngrams(token_lists, n=2, top_n=10)
+        cat_trigrams = get_common_ngrams(token_lists, n=3, top_n=10)
+
+        # Print results for this label within this category
+        print(f"\n--- Label: {lbl} ---")
+        print("Top 10 Bigrams (Stopwords Removed):")
+        for bigram, count in cat_bigrams:
+            print(f"  {bigram}: {count}")
+
+        print("\nTop 10 Trigrams (Stopwords Removed):")
+        for trigram, count in cat_trigrams:
+            print(f"  {trigram}: {count}")
