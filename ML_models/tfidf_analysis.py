@@ -51,8 +51,8 @@ cg_top_words = [feature_names[i] for i in cg_top_indices]
 or_top_words = [feature_names[i] for i in or_top_indices]
 
 # Print results
-print("🔹 **Top 10 Unique AI-Generated (CG) Words:**")
+print(" **Top 10 Unique AI-Generated (CG) Words:**")
 print(", ".join(cg_top_words))
 
-print("\n🔹 **Top 10 Unique Human (OR) Words:**")
+print("\n **Top 10 Unique Human (OR) Words:**")
 print(", ".join(or_top_words))
