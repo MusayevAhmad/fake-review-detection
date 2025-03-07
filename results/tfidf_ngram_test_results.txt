@@ -1,0 +1,11 @@
+Test Accuracy: 0.8959
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          CG       0.89      0.90      0.90      2022
+          OR       0.90      0.89      0.90      2022
+
+    accuracy                           0.90      4044
+   macro avg       0.90      0.90      0.90      4044
+weighted avg       0.90      0.90      0.90      4044
