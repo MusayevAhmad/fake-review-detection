@@ -9,7 +9,7 @@ nltk.download('punkt')
 nltk.download('stopwords')
 
 # Load the dataset
-file_path = r"C:\Users\selka\OneDrive\Bureaublad\Machine_Learning\repository\MachineLearningProject\datasets\fake_reviews_dataset.csv"  # Ensure the file is in the same directory
+file_path = '/Users/ahmedmusayev/Desktop/VU/Year 2/P4/ML/MachineLearningProject/datasets/fake_reviews_dataset.csv'
 df = pd.read_csv(file_path, encoding="utf-8")
 
 # Load English stopwords
