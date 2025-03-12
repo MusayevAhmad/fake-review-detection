@@ -1,0 +1,56 @@
+Validation Accuracy (With POS Tagging): 0.8983
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          CG       0.90      0.90      0.90      2022
+          OR       0.90      0.90      0.90      2021
+
+    accuracy                           0.90      4043
+   macro avg       0.90      0.90      0.90      4043
+weighted avg       0.90      0.90      0.90      4043
+
+
+Top features for class 'OR':
+even_RB: 9.7999
+though: 9.3442
+without: 8.0966
+others_NN: 7.1462
+another: 7.1330
+every: 6.9151
+otherwise_RB: 6.8233
+however_RB: 6.5383
+end_NN: 6.5044
+plus: 6.3670
+wo: 6.1917
+seem_VB: 6.0807
+actually_RB: 6.0152
+could: 5.9891
+easily_RB: 5.9053
+yet_RB: 5.8656
+although: 5.8392
+far_RB: 5.8196
+somewhat_RB: 5.7561
+instead_RB: 5.6790
+
+Top features for class 'CG':
+reason_NN give_VB: -10.0668
+also_RB love_VB: -9.4730
+problem_NN really_RB: -9.1762
+buy_VB friend_NN: -9.0035
+admit_NN: -8.9536
+reason_NN: -8.2230
+big_JJ fan_NN: -7.5744
+material_NN good_JJ: -7.1287
+would recommend_VB: -6.9964
+downside_NN: -6.9424
+replace_VB: -6.9197
+wide_JJ: -6.8668
+lot_NN fun_NN: -6.6132
+huge_JJ fan_NN: -6.5591
+problem_NN kind_NN: -6.5182
+quality_NN good_JJ: -6.5017
+good_JJ enough_RB: -6.5012
+thing_NN would: -6.4992
+plastic_JJ part_NN: -6.2640
+problem_NN: -6.2098
