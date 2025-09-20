@@ -1,4 +1,4 @@
-Test Accuracy: 0.8959
+Tf idf ngram Test Accuracy: 0.8959
 
 Classification Report:
               precision    recall  f1-score   support

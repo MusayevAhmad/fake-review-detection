@@ -1,0 +1,102 @@
+SVM Grid Search Results with POS Tagging
+=======================================
+
+Best Parameters:
+C: 10.0
+class_weight: balanced
+gamma: scale
+kernel: rbf
+
+Best cross-validation score: 0.8969
+
+All Tested Parameters and Scores:
+--------------------------------
+
+Parameters: {'C': 0.1, 'class_weight': 'balanced', 'gamma': 'scale', 'kernel': 'linear'}
+Mean validation score: 0.8630
+Mean training score: 0.8915
+Overfitting gap: 0.0285
+
+Parameters: {'C': 0.1, 'class_weight': 'balanced', 'gamma': 'scale', 'kernel': 'rbf'}
+Mean validation score: 0.8264
+Mean training score: 0.8726
+Overfitting gap: 0.0462
+
+Parameters: {'C': 0.1, 'class_weight': 'balanced', 'gamma': 0.1, 'kernel': 'linear'}
+Mean validation score: 0.8630
+Mean training score: 0.8915
+Overfitting gap: 0.0285
+
+Parameters: {'C': 0.1, 'class_weight': 'balanced', 'gamma': 0.1, 'kernel': 'rbf'}
+Mean validation score: 0.7960
+Mean training score: 0.8096
+Overfitting gap: 0.0135
+
+Parameters: {'C': 1.0, 'class_weight': 'balanced', 'gamma': 'scale', 'kernel': 'linear'}
+Mean validation score: 0.8931
+Mean training score: 0.9684
+Overfitting gap: 0.0753
+
+Parameters: {'C': 1.0, 'class_weight': 'balanced', 'gamma': 'scale', 'kernel': 'rbf'}
+Mean validation score: 0.8948
+Mean training score: 0.9942
+Overfitting gap: 0.0994
+
+Parameters: {'C': 1.0, 'class_weight': 'balanced', 'gamma': 0.1, 'kernel': 'linear'}
+Mean validation score: 0.8931
+Mean training score: 0.9684
+Overfitting gap: 0.0753
+
+Parameters: {'C': 1.0, 'class_weight': 'balanced', 'gamma': 0.1, 'kernel': 'rbf'}
+Mean validation score: 0.8757
+Mean training score: 0.9154
+Overfitting gap: 0.0397
+
+Parameters: {'C': 10.0, 'class_weight': 'balanced', 'gamma': 'scale', 'kernel': 'linear'}
+Mean validation score: 0.8713
+Mean training score: 0.9986
+Overfitting gap: 0.1273
+
+Parameters: {'C': 10.0, 'class_weight': 'balanced', 'gamma': 'scale', 'kernel': 'rbf'}
+Mean validation score: 0.8969
+Mean training score: 1.0000
+Overfitting gap: 0.1030
+
+Parameters: {'C': 10.0, 'class_weight': 'balanced', 'gamma': 0.1, 'kernel': 'linear'}
+Mean validation score: 0.8713
+Mean training score: 0.9986
+Overfitting gap: 0.1273
+
+Parameters: {'C': 10.0, 'class_weight': 'balanced', 'gamma': 0.1, 'kernel': 'rbf'}
+Mean validation score: 0.8923
+Mean training score: 0.9877
+Overfitting gap: 0.0954
+
+
+TF-IDF Vectorizer Parameters:
+analyzer: word
+binary: False
+decode_error: strict
+dtype: <class 'numpy.float64'>
+encoding: utf-8
+input: content
+lowercase: True
+max_df: 0.9
+max_features: 30000
+min_df: 3
+ngram_range: (1, 3)
+norm: l2
+preprocessor: None
+smooth_idf: True
+stop_words: None
+strip_accents: None
+sublinear_tf: False
+token_pattern: (?u)\b\w\w+\b
+tokenizer: <function tokenize_text_pos at 0x104bf5080>
+use_idf: True
+vocabulary: None
+
+Training set size: 32345 samples
+Number of features: 30000
+
+Total execution time: 1 hours, 43 minutes

@@ -1,0 +1,42 @@
+TF-IDF Vectorizer Parameters:
+analyzer: word
+binary: False
+decode_error: strict
+dtype: <class 'numpy.float64'>
+encoding: utf-8
+input: content
+lowercase: True
+max_df: 0.9
+max_features: 10000
+min_df: 3
+ngram_range: (1, 3)
+norm: l2
+preprocessor: None
+smooth_idf: True
+stop_words: None
+strip_accents: None
+sublinear_tf: True
+token_pattern: (?u)\b\w\w+\b
+tokenizer: <function tokenize_text at 0x1035d5080>
+use_idf: True
+vocabulary: None
+
+Logistic Regression Parameters:
+C: 10.0
+class_weight: balanced
+dual: False
+fit_intercept: True
+intercept_scaling: 1
+l1_ratio: None
+max_iter: 1000
+multi_class: auto
+n_jobs: None
+penalty: l2
+random_state: None
+solver: liblinear
+tol: 0.0001
+verbose: 0
+warm_start: False
+
+Training set size: 32345 samples
+Number of features: 10000

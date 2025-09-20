@@ -1,0 +1,56 @@
+Validation Accuracy (SVM with POS Tagging): 0.8902
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          CG       0.89      0.89      0.89      2022
+          OR       0.89      0.89      0.89      2021
+
+    accuracy                           0.89      4043
+   macro avg       0.89      0.89      0.89      4043
+weighted avg       0.89      0.89      0.89      4043
+
+
+Top features for class 'OR':
+though: 3.9047
+fit_NN comfortable_JJ: 3.8479
+lot_NN fun_NN kid_NN: 3.7965
+follow_JJ instruction_NN: 3.7459
+otherwise_RB: 3.6040
+one good_NN: 3.5719
+sole_NN: 3.4752
+first_RB book_NN author_NN: 3.3601
+connected_JJ: 3.3520
+even_RB: 3.3465
+keep_VB dog_JJ: 3.3346
+look_VB solid_JJ: 3.3014
+disappointment_NN: 3.2886
+plus: 3.2693
+well_RB feel_VB: 3.2381
+daughter_NN love_NN play_VB: 3.2345
+first_RB saw_VB: 3.2286
+purchase_VB toy_JJ: 3.2136
+somewhat_RB: 3.2128
+clothes_NN: 3.1441
+
+Top features for class 'CG':
+reason_NN give_VB: -5.2221
+also_RB love_VB: -4.9219
+problem_NN really_RB: -4.5643
+huge_JJ fan_NN: -4.4975
+big_JJ fan_NN: -4.4288
+admit_NN: -4.3256
+definitely_RB buy_VB: -4.2678
+buy_VB friend_NN: -4.0069
+downside_NN: -3.9583
+bulky_JJ: -3.9350
+quality_NN beautiful_JJ: -3.9265
+recommend_VB great_JJ: -3.8377
+thing_NN would: -3.8327
+love_NN blanket_NN: -3.8230
+easy_JJ task_NN: -3.8008
+work_VB great_JJ price_NN: -3.7443
+start_VB get_NN: -3.7117
+try_NN keep_VB: -3.7018
+piece_JJ paper_NN: -3.6958
+top_JJ top_NN: -3.6672
