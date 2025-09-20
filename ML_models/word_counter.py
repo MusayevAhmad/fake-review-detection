@@ -18,7 +18,7 @@ stop_words = set(stopwords.words("english"))
 # Function to tokenize and remove stopwords
 def process_text(text):
     tokens = word_tokenize(text.lower())  # Convert to lowercase and tokenize
-    filtered_tokens = [word for word in tokens if word not in stop_words and word.isalpha()]  # Remove stopwords and non-alphabetic tokens
+    filtered_tokens = [word for word in tokens if word not in stop_words and word.isalpha()]
     return filtered_tokens
 
 # Apply text processing
