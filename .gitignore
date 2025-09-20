@@ -1,0 +1,72 @@
+# Saved models directory
+ML_models/saved_models/
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Model files (large files)
+models/saved_models/bert_checkpoints/
+*.joblib
+*.pkl
+*.bin
+*.pth
+*.pt
+*.zip
+
+# Results and logs
+logs/
+*.log
+wandb/
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+tmp_trainer/
+
+# OS generated files
+.DS_Store?
+ehthumbs.db
+Thumbs.db
