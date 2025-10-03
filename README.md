@@ -171,13 +171,11 @@ python demo/single_review_inference_demo.py
 
 | Model | Accuracy | Precision | Recall | F1-Score |
 |-------|----------|-----------|---------|----------|
-| TF-IDF + LogReg | 90.2% | 89.8% | 90.5% | 90.1% |
-| TF-IDF + POS + LogReg | 91.5% | 91.2% | 91.8% | 91.5% |
-| SVM (RBF) | 89.8% | 89.3% | 90.2% | 89.7% |
-| SVM + POS | 92.1% | 91.9% | 92.3% | 92.1% |
-| BERT | **93.7%** | **93.4%** | **94.0%** | **93.7%** |
+| TF-IDF + LogReg | 89.6% | 89% | 90% | 90% |
+| TF-IDF + POS + LogReg | **90.0%** | **90%** | **90%** | **90%** |
+| SVM + POS (CV) | 89.7% | - | - | - |
 
-*Results on test set. BERT achieves state-of-the-art performance.*
+*Results on test set based on actual experimental outputs.*
 
 ## Demo Applications
 
