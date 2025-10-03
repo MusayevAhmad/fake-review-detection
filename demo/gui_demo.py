@@ -7,7 +7,7 @@ import torch
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
 # 1. Load Model & Tokenizer
-model_checkpoint_path = "bert-fake-vs-real/checkpoint-16176"  # Update if needed
+model_checkpoint_path = "models/saved_models/bert_checkpoints/checkpoint-16176"
 model = AutoModelForSequenceClassification.from_pretrained(model_checkpoint_path)
 tokenizer = AutoTokenizer.from_pretrained(model_checkpoint_path)
 
